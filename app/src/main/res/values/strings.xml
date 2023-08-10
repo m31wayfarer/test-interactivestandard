@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">interactivestandard</string>
+    <string name="app_name">Тестовое</string>
+    <string name="error_when_count_points_invalid">Число точек должно быть целым и больше нуля</string>
+    <string name="error_network">Проверьте интернет</string>
+    <string name="unexpected_error_during_getting_points">Возникла непредвиденная ошибка. Попробуйте позже.</string>
+    <string name="input_points_info_block">Пожалуйста, введите число точек</string>
+    <string name="button_go">Поехали</string>
 </resources>

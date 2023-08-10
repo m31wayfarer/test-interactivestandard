@@ -4,5 +4,5 @@ import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class DisplayPointsFragment: Fragment() {
+class DisplayPointsFragment : Fragment() {
 }

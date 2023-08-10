@@ -7,5 +7,17 @@
     <fragment
         android:id="@+id/inputPointsFragment"
         android:name="com.review.interactivestandard.features.input_points.InputPointsFragment"
-        android:label="InputPointsFragment" />
+        android:label="InputPointsFragment">
+        <action
+            android:id="@+id/action_inputPointsFragment_to_displayPointsFragment"
+            app:destination="@id/displayPointsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayPointsFragment"
+        android:name="com.review.interactivestandard.features.display_points.view.DisplayPointsFragment"
+        android:label="DisplayPointsFragment">
+        <argument
+            android:name="points"
+            app:argType="com.review.interactivestandard.common.view.dto.ViewPointDTO[]" />
+    </fragment>
 </navigation>

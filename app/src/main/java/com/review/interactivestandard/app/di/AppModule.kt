@@ -27,7 +27,8 @@ internal object AppModule {
     @Provides
     @AppScope
     fun provideAppScope(dispatchers: AppCoroutineDispatchers): CoroutineScope = CoroutineScope(
-        SupervisorJob() + dispatchers.computation)
+        SupervisorJob() + dispatchers.computation
+    )
 }
 
 @Qualifier

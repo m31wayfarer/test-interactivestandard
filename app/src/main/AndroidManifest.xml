@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".app.InteractiveStandartApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,9 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Interactivestandard"
-        android:name=".app.InteractiveStandartApp"
-        tools:targetApi="33" >
-        <activity android:name=".main.view.MainActivity"
+        tools:targetApi="33">
+        <activity
+            android:name=".main.view.MainActivity"
             android:exported="true"
             android:launchMode="singleInstance"
             android:windowSoftInputMode="adjustResize">
@@ -29,8 +32,7 @@
             tools:node="merge">
             <meta-data
                 android:name="${applicationId}.app.initializers.ThreadExceptionHandlerInitializer"
-                android:value="androidx.startup"
-                />
+                android:value="androidx.startup" />
         </provider>
     </application>
 </manifest>

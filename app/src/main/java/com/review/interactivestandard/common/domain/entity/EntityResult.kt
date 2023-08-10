@@ -9,6 +9,10 @@ sealed class EntityResult<out T>(
 
     sealed class ErrorType {
         object NetworkError : ErrorType()
-        data class GenericError(val code: Int? = null, val error: EntityError? = null) : ErrorType()
+        data class GenericError(
+            val code: Int? = null,
+            val error: EntityError? = null,
+            val throwable: Throwable? = null
+        ) : ErrorType()
     }
 }

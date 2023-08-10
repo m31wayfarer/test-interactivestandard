@@ -6,7 +6,7 @@ import timber.log.Timber
 import java.io.IOException
 import kotlin.system.exitProcess
 
-class ThreadExceptionHandlerInitializer: Initializer<Unit> {
+class ThreadExceptionHandlerInitializer : Initializer<Unit> {
     override fun create(context: Context) {
         Timber.i("ThreadExceptionHandlerInitializer create")
 

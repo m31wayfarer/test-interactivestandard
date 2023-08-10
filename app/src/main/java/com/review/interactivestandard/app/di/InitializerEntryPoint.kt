@@ -9,7 +9,7 @@ import dagger.hilt.components.SingletonComponent
 
 @EntryPoint
 @InstallIn(SingletonComponent::class)
-interface  InitializerEntryPoint {
+interface InitializerEntryPoint {
     companion object {
         //a helper method to resolve the InitializerEntryPoint from the context
         fun resolve(context: Context): InitializerEntryPoint {

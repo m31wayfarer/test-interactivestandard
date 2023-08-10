@@ -1,3 +1,3 @@
 package com.review.interactivestandard.common.domain.entity
 
-class EntityPoint(val x: Double, val y: Double)
+class EntityPoint(val x: Float, val y: Float)
