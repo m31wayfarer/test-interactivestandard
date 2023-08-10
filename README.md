@@ -41,7 +41,9 @@ https://hr-challenge.interactivestandard.com/swagger-ui.html?urls.primaryName=mo
 <br/>
 <b>Логирование</b>: Timber
 <br/>
-<b>Прочее</b>: Jetpack Startup, Splash
+<b>Графики</b>: MPAndroidChart
+<br/>
+<b>Прочее</b>: Jetpack Startup, Splash, Single Activity, Fragments
 <br/>
 
 Проект (вьюмодели и мапперы) покрыт юнит-тестами с помощью Mockk и kotlinx-coroutines-test

@@ -5,4 +5,6 @@
     <string name="unexpected_error_during_getting_points">Возникла непредвиденная ошибка. Попробуйте позже.</string>
     <string name="input_points_info_block">Пожалуйста, введите число точек</string>
     <string name="button_go">Поехали</string>
+    <string name="captionY">Y</string>
+    <string name="captionX">X</string>
 </resources>
