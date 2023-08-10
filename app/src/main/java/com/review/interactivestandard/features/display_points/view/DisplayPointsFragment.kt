@@ -6,7 +6,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.github.mikephil.charting.components.Legend
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.data.LineData
@@ -51,18 +50,12 @@ class DisplayPointsFragment : Fragment(R.layout.fragment_display_points) {
         with(binding.chart) {
             description.isEnabled = false
 
-            xAxis.setDrawGridLines(false)
+            xAxis.setDrawGridLines(true)
             xAxis.position = XAxis.XAxisPosition.BOTTOM
             xAxis.granularity = 1F
 
             axisRight.isEnabled = false
-            extraRightOffset = 30f
-
-            legend.orientation = Legend.LegendOrientation.VERTICAL
-            legend.verticalAlignment = Legend.LegendVerticalAlignment.TOP
-            legend.horizontalAlignment = Legend.LegendHorizontalAlignment.CENTER
-            legend.textSize = 15F
-            legend.form = Legend.LegendForm.LINE
+            legend.isEnabled = false
 
             setTouchEnabled(true)
             setPinchZoom(true)
