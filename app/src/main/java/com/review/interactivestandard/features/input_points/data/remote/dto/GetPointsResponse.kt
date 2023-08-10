@@ -1,4 +1,4 @@
-package com.review.interactivestandard.features.display_points.data.remote.dto
+package com.review.interactivestandard.features.input_points.data.remote.dto
 
 import kotlinx.serialization.Serializable
 

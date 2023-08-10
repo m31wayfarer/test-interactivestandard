@@ -1,8 +1,8 @@
 package com.review.interactivestandard.mappers
 
 import com.review.interactivestandard.TimberRule
-import com.review.interactivestandard.features.display_points.data.remote.dto.PointDTO
-import com.review.interactivestandard.features.display_points.data.remote.mappers.RemotePointMapper
+import com.review.interactivestandard.features.input_points.data.remote.dto.PointDTO
+import com.review.interactivestandard.features.input_points.data.remote.mappers.RemotePointMapper
 import junit.framework.TestCase.assertEquals
 import org.junit.ClassRule
 import org.junit.Test

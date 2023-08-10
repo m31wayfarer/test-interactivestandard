@@ -5,7 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.review.interactivestandard.R
 import com.review.interactivestandard.common.domain.entity.EntityResult
 import com.review.interactivestandard.common.view.mappers.ViewPointMapper
-import com.review.interactivestandard.features.display_points.domain.IPointsInteractor
+import com.review.interactivestandard.features.input_points.domain.IPointsInteractor
 import com.review.interactivestandard.features.input_points.dto.InputPointsSingleEvent
 import com.review.interactivestandard.features.input_points.dto.InputPointsViewState
 import com.review.interactivestandard.utils.AppCoroutineDispatchers

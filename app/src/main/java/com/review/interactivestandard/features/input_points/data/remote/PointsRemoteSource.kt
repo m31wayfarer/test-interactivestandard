@@ -1,10 +1,10 @@
-package com.review.interactivestandard.features.display_points.data.remote
+package com.review.interactivestandard.features.input_points.data.remote
 
 import com.review.interactivestandard.common.data.dto.toEntityResult
 import com.review.interactivestandard.common.data.safeApiCall
 import com.review.interactivestandard.common.domain.entity.EntityPoint
 import com.review.interactivestandard.common.domain.entity.EntityResult
-import com.review.interactivestandard.features.display_points.data.remote.mappers.RemotePointMapper
+import com.review.interactivestandard.features.input_points.data.remote.mappers.RemotePointMapper
 import com.review.interactivestandard.utils.AppCoroutineDispatchers
 import dagger.Lazy
 import kotlinx.coroutines.flow.Flow

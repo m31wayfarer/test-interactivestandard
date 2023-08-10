@@ -1,8 +1,8 @@
-package com.review.interactivestandard.features.display_points.di
+package com.review.interactivestandard.features.input_points.di
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import com.review.interactivestandard.BuildConfig
-import com.review.interactivestandard.features.display_points.data.remote.PointsApiService
+import com.review.interactivestandard.features.input_points.data.remote.PointsApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,6 +1,6 @@
-package com.review.interactivestandard.features.display_points.data.remote
+package com.review.interactivestandard.features.input_points.data.remote
 
-import com.review.interactivestandard.features.display_points.data.remote.dto.GetPointsResponse
+import com.review.interactivestandard.features.input_points.data.remote.dto.GetPointsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

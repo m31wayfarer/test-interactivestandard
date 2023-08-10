@@ -1,4 +1,4 @@
-package com.review.interactivestandard.features.display_points.domain
+package com.review.interactivestandard.features.input_points.domain
 
 import com.review.interactivestandard.common.domain.entity.EntityResult
 import com.review.interactivestandard.utils.AppCoroutineDispatchers
