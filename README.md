@@ -1,6 +1,7 @@
 # test-interactivestandard
 
 <h2>Тестовое задание для Android разработчика</h2>
+<br/>
 
 Требуется написать на Kotlin или Java мобильное приложение для Android, которое запрашивает у
 сервера определённое количество координат точек (x, y), а затем отображает полученный ответ в виде
@@ -13,6 +14,7 @@
 points":[{"x":1.23, "y":2.44},{"x":2.17, "y":3.66}]}
 Спецификация API:
 https://hr-challenge.interactivestandard.com/swagger-ui.html?urls.primaryName=mobile
+<br/>
 
 При неверном количестве запрошенных точек сервер возвращает ошибку. Кроме того он может просто
 ломаться сам-по-себе.
@@ -23,14 +25,23 @@ https://hr-challenge.interactivestandard.com/swagger-ui.html?urls.primaryName=mo
 изменения масштаба пользователем
 соединение точек не ломаной линией, а сглаженной
 работа в портретной и ландшафтной ориентации экрана
+<br/>
 
 <b>Архитектура</b>: Clean architecture
+<br/>
 <b>Архитектура слоя presentation</b>: Jetpack MVVM
+<br/>
 <b>DI</b>: Hilt
+<br/>
 <b>Навигация</b>: Jetpack Navigation
+<br/>
 <b>Асинхронность</b>: Kotlin Flow & Coroutines
+<br/>
 <b>Сеть</b>: Retrofit
+<br/>
 <b>Логирование</b>: Timber
+<br/>
 <b>Прочее</b>: Jetpack Startup, Splash
+<br/>
 
 Проект (вьюмодели и мапперы) покрыт юнит-тестами с помощью Mockk и kotlinx-coroutines-test
