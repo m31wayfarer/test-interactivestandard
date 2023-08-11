@@ -1,55 +1,54 @@
-# test-interactivestandard
-
-<h2>Тестовое задание для Android разработчика</h2>
+<h2>Test Assignment for Android Developer</h2>
 <br/>
-Требуется написать на Kotlin или Java мобильное приложение для Android, которое запрашивает у
-сервера определённое количество координат точек (x, y), а затем отображает полученный ответ в виде
-таблицы и графика.
+You are required to develop a mobile application for Android using Kotlin or Java. The application
+should request a certain number of coordinate points (x, y) from a server, and then display the
+received response in the form of a table and a graph.
 <br/>
-На главном экране имеется блок информационного текста, поле для ввода числа точек и одна кнопка
-«Поехали».
+The main screen should have a block of informational text, a field for entering the number of
+points, and a button labeled "Let's Go".
 <br/>
-По нажатию на кнопку осуществляется запрос к API сервера (GET /api/test/points), с параметром
-количества запрашиваемых точек (count).
+Upon pressing the button, a request is made to the server's API (GET /api/test/points), with the
+parameter specifying the number of points to request (count).
 <br/>
-Сервер выдаёт в ответ массив точек в JSON формате, пример: {"
+The server responds with an array of points in JSON format, for example: {"
 points":[{"x":1.23, "y":2.44},{"x":2.17, "y":3.66}]}
 <br/>
-Спецификация API:
+API Specification:
 https://hr-challenge.interactivestandard.com/swagger-ui.html?urls.primaryName=mobile
 <br/>
-При неверном количестве запрошенных точек сервер возвращает ошибку. Кроме того он может просто
-ломаться сам-по-себе.
+If an incorrect number of points is requested, the server returns an error. Additionally, the server
+might experience occasional outages.
 <br/>
-Если ответ от сервера получен, то на новом экране должна отобразиться таблица с полученными
-координатами точек. Ниже должен быть отображен график с точками, соединёнными прямыми линиями. Точки
-на графике должны следовать по возрастанию координаты x.
+If a response is received from the server, a new screen should display a table with the received
+coordinate points. Below the table, a graph should be displayed with points connected by straight
+lines. The points on the graph should be arranged in ascending order of the x-coordinate.
 <br/>
-Дополнительно осуществлены следующие возможности работы с графиком:
+The following additional graph functionalities should be implemented:
 <br/>
 <ul>
-<li>изменения масштаба пользователем</li>
-<li>работа в портретной и ландшафтной ориентации экрана</li>
-<li>функциональность поделиться картинкой графика</li>
+<li>User-scalable functionality</li>
+<li>Support for both portrait and landscape screen orientations</li>
+<li>Capability to share the graph image</li>
 </ul>
 <br/>
 <br/>
-<b>Архитектура</b>: Clean architecture
+<b>Architecture</b>: Clean architecture
 <br/>
-<b>Архитектура слоя presentation</b>: Jetpack MVVM
+<b>Presentation Layer Architecture</b>: Jetpack MVVM
 <br/>
-<b>DI</b>: Hilt
+<b>Dependency Injection (DI)</b>: Hilt
 <br/>
-<b>Навигация</b>: Jetpack Navigation
+<b>Navigation</b>: Jetpack Navigation
 <br/>
-<b>Асинхронность</b>: Kotlin Flow & Coroutines
+<b>Asynchronicity</b>: Kotlin Flow & Coroutines
 <br/>
-<b>Сеть</b>: Retrofit
+<b>Networking</b>: Retrofit
 <br/>
-<b>Логирование</b>: Timber
+<b>Logging</b>: Timber
 <br/>
-<b>Графики</b>: MPAndroidChart
+<b>Graphs</b>: MPAndroidChart
 <br/>
-<b>Прочее</b>: Jetpack Startup, Splash, Single Activity, Fragments
+<b>Other</b>: Jetpack Startup, Splash Screen, Single Activity, Fragments
 <br/>
-Проект (вьюмодели и мапперы) покрыт юнит-тестами с помощью Mockk и kotlinx-coroutines-test
+The project (view models and mappers) is covered by unit tests using Mockk and 
+kotlinx-coroutines-test.
