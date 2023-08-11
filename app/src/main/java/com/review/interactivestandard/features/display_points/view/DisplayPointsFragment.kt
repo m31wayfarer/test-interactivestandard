@@ -22,7 +22,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class DisplayPointsFragment : Fragment(R.layout.fragment_display_points) {
     private val viewModel: DisplayPointsViewModel by viewModels()
     private val binding by viewBinding(FragmentDisplayPointsBinding::bind)
-    private val adapter by lazy { PointsRecyclerAdapter() }
+    private val adapter by lazy(mode = LazyThreadSafetyMode.NONE) { PointsRecyclerAdapter() }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
