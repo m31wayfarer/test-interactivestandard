@@ -149,6 +149,11 @@ class InputPointsViewModelUnitTest {
             InputPointsSingleEvent.ShowError(message = invalidCountString),
             viewModel.state.value.event
         )
+        viewModel.didHandleEvent()
+        assertEquals(
+            null,
+            viewModel.state.value.event
+        )
     }
 
     @Test
@@ -170,6 +175,11 @@ class InputPointsViewModelUnitTest {
             InputPointsSingleEvent.ShowError(message = invalidCountString),
             viewModel.state.value.event
         )
+        viewModel.didHandleEvent()
+        assertEquals(
+            null,
+            viewModel.state.value.event
+        )
     }
 
     @Test
@@ -189,6 +199,11 @@ class InputPointsViewModelUnitTest {
         runCurrent()
         assertEquals(
             InputPointsSingleEvent.ShowError(message = invalidCountString),
+            viewModel.state.value.event
+        )
+        viewModel.didHandleEvent()
+        assertEquals(
+            null,
             viewModel.state.value.event
         )
     }
@@ -247,6 +262,11 @@ class InputPointsViewModelUnitTest {
             InputPointsSingleEvent.ShowError(message = errorMessage),
             viewModel.state.value.event
         )
+        viewModel.didHandleEvent()
+        assertEquals(
+            null,
+            viewModel.state.value.event
+        )
     }
 
     @Test
@@ -281,6 +301,11 @@ class InputPointsViewModelUnitTest {
                     point
                 )
             }),
+            viewModel.state.value.event
+        )
+        viewModel.didHandleEvent()
+        assertEquals(
+            null,
             viewModel.state.value.event
         )
     }
