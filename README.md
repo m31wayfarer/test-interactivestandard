@@ -31,7 +31,6 @@ The following additional graph functionalities should be implemented:
 <li>Capability to share the graph image</li>
 </ul>
 <br/>
-<br/>
 <b>Architecture</b>: Clean architecture
 <br/>
 <b>Presentation Layer Architecture</b>: Jetpack MVVM
