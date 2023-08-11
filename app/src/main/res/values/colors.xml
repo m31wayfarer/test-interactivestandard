@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="line_data_color">#8888FF</color>
     <color name="axe_text_color">@color/black</color>
+    <color name="chart_background">@color/white</color>
 </resources>
