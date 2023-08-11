@@ -1,6 +1,6 @@
 <h2>Test Assignment for Android Developer</h2>
 <br/>
-You are required to develop a mobile application for Android using Kotlin or Java. The application
+You are required to develop a mobile application for Android using Kotlin. The application
 should request a certain number of coordinate points (x, y) from a server, and then display the
 received response in the form of a table and a graph.
 <br/>
@@ -49,6 +49,7 @@ The following additional graph functionalities should be implemented:
 <b>Graphs</b>: MPAndroidChart
 <br/>
 <b>Other</b>: Jetpack Startup, Splash Screen, Single Activity, Fragments
+<br/>
 <br/>
 The project (view models and mappers) is covered by unit tests using Mockk and 
 kotlinx-coroutines-test.
