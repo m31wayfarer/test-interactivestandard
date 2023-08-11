@@ -45,7 +45,7 @@ class InputPointsFragment : Fragment(R.layout.fragment_input_points) {
                         showError(event.message)
                     }
                 }
-                viewModel.didNavigateEvent()
+                viewModel.didHandleEvent()
             }
             if (state.isLoading)
                 binding.progressIndicator.show()

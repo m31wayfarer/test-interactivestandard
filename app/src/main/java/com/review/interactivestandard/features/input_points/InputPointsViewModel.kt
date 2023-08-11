@@ -111,7 +111,7 @@ class InputPointsViewModel @Inject constructor(
         }
     }
 
-    fun didNavigateEvent() {
+    fun didHandleEvent() {
         _state.update { currentValue ->
             currentValue.copy(event = null)
         }
