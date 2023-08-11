@@ -7,4 +7,7 @@
     <string name="button_go">Поехали</string>
     <string name="captionY">Y</string>
     <string name="captionX">X</string>
+    <string name="share_button">Поделиться</string>
+    <string name="error_during_sharing_chart_image">"Ошибка с подготовкой картинки для шаринга. Попробуйте очистить место и попробовать снова. "</string>
+    <string name="chooser_title_for_sharing_chart_image">Выберите приложения для отправки графика</string>
 </resources>
