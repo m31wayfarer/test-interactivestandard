@@ -8,5 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="line_data_color">#8888FF</color>
-    <color name="line_text_value_color">#8888FF</color>
+    <color name="axe_text_color">@color/black</color>
 </resources>

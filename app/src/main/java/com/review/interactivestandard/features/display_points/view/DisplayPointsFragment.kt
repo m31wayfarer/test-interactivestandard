@@ -53,7 +53,8 @@ class DisplayPointsFragment : Fragment(R.layout.fragment_display_points) {
             xAxis.setDrawGridLines(true)
             xAxis.position = XAxis.XAxisPosition.BOTTOM
             xAxis.granularity = 1F
-
+            xAxis.textColor = ContextCompat.getColor(requireContext(), R.color.axe_text_color)
+            axisLeft.textColor = ContextCompat.getColor(requireContext(), R.color.axe_text_color)
             axisRight.isEnabled = false
             legend.isEnabled = false
 
@@ -71,8 +72,6 @@ class DisplayPointsFragment : Fragment(R.layout.fragment_display_points) {
         pointsDataSet.setDrawCircles(false)
         pointsDataSet.mode = LineDataSet.Mode.LINEAR
         pointsDataSet.color = ContextCompat.getColor(requireContext(), R.color.line_data_color)
-        pointsDataSet.valueTextColor =
-            ContextCompat.getColor(requireContext(), R.color.line_text_value_color)
 
         val dataSet = ArrayList<ILineDataSet>()
         dataSet.add(pointsDataSet)
