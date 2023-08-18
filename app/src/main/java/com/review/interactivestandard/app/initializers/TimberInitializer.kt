@@ -2,7 +2,7 @@ package com.review.interactivestandard.app.initializers
 
 import android.content.Context
 import androidx.startup.Initializer
-import com.github.mikephil.charting.BuildConfig
+import com.review.interactivestandard.BuildConfig
 import timber.log.Timber
 
 class TimberInitializer : Initializer<Unit> {
