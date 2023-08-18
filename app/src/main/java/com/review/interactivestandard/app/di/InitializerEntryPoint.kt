@@ -1,7 +1,6 @@
 package com.review.interactivestandard.app.di
 
 import android.content.Context
-import com.review.interactivestandard.app.initializers.ThreadExceptionHandlerInitializer
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors
@@ -20,6 +19,4 @@ interface InitializerEntryPoint {
             )
         }
     }
-
-    fun inject(initializer: ThreadExceptionHandlerInitializer)
 }
