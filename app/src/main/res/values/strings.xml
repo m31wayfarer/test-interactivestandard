@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Тестовое</string>
-    <string name="error_when_count_points_invalid">Число точек должно быть целым и больше нуля</string>
-    <string name="error_network">Проверьте интернет</string>
-    <string name="unexpected_error_during_getting_points">Возникла непредвиденная ошибка. Попробуйте позже.</string>
-    <string name="input_points_info_block">Пожалуйста, введите число точек</string>
-    <string name="button_go">Поехали</string>
+    <string name="app_name">Test</string>
+    <string name="error_when_count_points_invalid">The number of points must be an integer and greater than zero</string>
+    <string name="error_network">Check your internet connection</string>
+    <string name="unexpected_error_during_getting_points">An unexpected error occurred. Please try again later.</string>
+    <string name="input_points_info_block">Please enter the number of points</string>
+    <string name="button_go">Go</string>
     <string name="captionY">Y</string>
     <string name="captionX">X</string>
-    <string name="share_button">Поделиться</string>
-    <string name="error_during_sharing_chart_image">"Ошибка с подготовкой картинки для шаринга. Попробуйте очистить место и попробовать снова. "</string>
-    <string name="chooser_title_for_sharing_chart_image">Выберите приложения для отправки графика</string>
+    <string name="share_button">Share</string>
+    <string name="error_during_sharing_chart_image">Error preparing the image for sharing. Please clear space and try again.</string>
+    <string name="chooser_title_for_sharing_chart_image">Select apps to share the chart</string>
 </resources>

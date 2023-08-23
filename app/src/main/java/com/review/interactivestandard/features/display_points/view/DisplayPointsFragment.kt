@@ -64,8 +64,8 @@ class DisplayPointsFragment : Fragment(R.layout.fragment_display_points) {
     }
 
     private fun wantsToShareChart() {
-        val bitmap = binding.chart.drawToBitmap()
         viewLifecycleOwner.lifecycleScope.launch(dispatchers.computation) {
+            val bitmap = binding.chart.drawToBitmap()
             viewModel.shareImage(imageMapper.mapToImage(bitmap))
         }
     }

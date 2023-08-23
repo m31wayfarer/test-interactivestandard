@@ -35,7 +35,6 @@ class TableViewPointDiffCallback : DiffUtil.ItemCallback<TableViewPointDTO>() {
     override fun areItemsTheSame(oldItem: TableViewPointDTO, newItem: TableViewPointDTO): Boolean {
         return oldItem == newItem
     }
-
     override fun areContentsTheSame(
         oldItem: TableViewPointDTO,
         newItem: TableViewPointDTO
